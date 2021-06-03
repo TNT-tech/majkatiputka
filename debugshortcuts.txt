@@ -1,0 +1,51 @@
+DEBUG SHORTCUTS
+---------------
+This document contains useful keyboard shortcuts that were used to test the game, record marketing footage, etc. They are meant for power users, provided AS IS, and might potentially break the game.
+All the shortcuts can be activated once in the game (not menu). Some shortcuts will only work if you already have completed the current level.
+
+
+JUMP TO CHECKPOINT
+------------------
+Enter L, then level number 0-7, then checkpoint number without spaces and press Enter to jump to specific location in the game.
+
+1ST PERSON CAMERA
+-----------------
+FPS+Enter -  Switch to experimental FPS mode.
+
+RECORDER
+--------
+In game you can press * (multiply at numpad) it will start capturing frames. Pressing * again will stop capturing and enter play mode. In play mode you have the following shortcuts:
+* Left arrow – rewind,
+* Right arrow – forward,
+* Shift left/right – fast forward/rewind,
+* Space – play/pause
+* Shift+Space – reverse play
+
+CAMERA
+------
+[ and ] - change camera zoom (e.g. fall animation)
+Comma, Period - increase decrease fog density (more isometric shots would look desatured without this) 
+F6 - freeze/unfreeze time (to capture a still)
+F7 - toggle fullscreen camera in COOP mode
+F8 - enter FreeRoam camera mode - enables moving camera and capturing keyframed camera animations
+Ctrl+Shift+T - slow-motion - time becomes 2x slower
+Ctrl+Shift+R - frame video capture (will slow game time to export PNGs)
+
+
+FREE-ROAM
+---------
+Once in freeroam the following shortcuts are enabled to control the camera:
+* WASD - move around
+* Q- up, Z-down,
+* Mouselook – look around
+* Mousewheel - change FOV
+
+
+KEY-FRAME
+---------
+* 1-9 - Create regular keyframe at current recorder frame (remembering camera world position and rotation)
+* Shift 1-9 - Create targeted keyframe looking at human (stores camera world position, camera rotation will be set to look at the human - it might get shaky with fixed camera looking at jumping human)
+* Ctrl 1-9 - Create human keyframe (camera position relative to human is remembered)
+* 0 clear keyframes
+You can mix and match all three types of keyframes (regular, targeted, human).
+Without recorder you are limited to 2 keyframes (1 & 2), pressing space will interpolate those 2 using a 10 seecond animation
